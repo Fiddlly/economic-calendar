@@ -66,7 +66,7 @@ def fetch_and_filter_events():
 
 def create_calendar_from_df(df):
     """Creates an iCalendar object from a DataFrame."""
-    c = Calendar()
+    c = Calendar(creator="Economic Events Calendar")
     
     # --- CHANGE 2: Dictionary to map country codes to flags ---
     country_flags = {
@@ -87,11 +87,11 @@ def create_calendar_from_df(df):
         e.begin = row['date']
         e.duration = pd.Timedelta(minutes=30)
         
-        description = []
-        if pd.notna(row.get('comment')):
-            description.append(row['comment'])
+        # description = []
+        # if pd.notna(row.get('comment')):
+        #     description.append(row['comment'])
         
-        e.description = "\n".join(description)
+        # e.description = "\n".join(description)
         c.events.add(e)
         
     return c
