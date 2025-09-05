@@ -1,183 +1,160 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:ics.py - http://git.io/lLljaA
+PRODID:Economic Events Calendar
 BEGIN:VEVENT
 DURATION:PT30M
 DTSTART:20250909T140000Z
 SUMMARY:🇺🇸 Non Farm Payrolls Annual Revision
-UID:a0c2b797-7ea8-4b16-882f-11102dbfbf85@a0c2.org
+UID:ae5ae29c-62ae-4268-8016-ca0b8c033e15@ae5a.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:In the United States\, unadjusted Consumer Price Index for All Urban Consumers is based on the prices of a market basket of: Food (14% of total weight)\; Energy (8%)\; Commodities Less Food & Energy Commodities (21%) and Services Less Energy Services (57%). The last category is divided by: Shelter (32%)\, Medical Care Services (7%) and Transportation Services (6%).
-DURATION:PT30M
-DTSTART:20250911T123000Z
-SUMMARY:🇺🇸 Inflation Rate YoY
-UID:38028adc-827e-4e83-b7a2-7decf7764cbc@3802.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Durable Goods Orders refer to new orders placed with manufacturers for delivery of hard goods which meant to last at least three years.
-DURATION:PT30M
-DTSTART:20250925T123000Z
-SUMMARY:🇺🇸 Durable Goods Orders MoM
-UID:813f7135-0b01-42c8-b596-378dd75dccb4@813f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:In the United States\, the authority to set interest rates is divided between the Board of Governors of the Federal Reserve (Board) and the Federal Open Market Committee (FOMC). The Board decides on changes in discount rates after recommendations submitted by one or more of the regional Federal Reserve Banks. The FOMC decides on open market operations\, including the desired levels of central bank money or the desired federal funds market rate.
-DURATION:PT30M
-DTSTART:20250917T180000Z
-SUMMARY:🇺🇸 Fed Interest Rate Decision
-UID:7cbfa15b-c8dc-43e7-9611-463326c77f33@7cbf.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Retail sales report in the US provides aggregated measure of sales of retail goods and services over a period of a month. There are thirteen major types of retailers: Nonstore retailers (20% of total sales)\, Motor vehicle & parts dealers (18%)\, Food services & drinking places (13%)\, Food & beverage stores (12%)\, General merchandise stores (10%)\, Gasoline stations (7%)\, Building material & garden dealers (6%)\, Health & personal care stores (5%)\, Clothing & clothing accessories stores (4%)\, Miscellaneous store retailers (2%)\, Furniture stores (2%)\, Electronics & appliance stores (1%)\, and Sporting goods\, hobby\, book & music stores (1%).
-DURATION:PT30M
-DTSTART:20250916T123000Z
-SUMMARY:🇺🇸 Retail Sales MoM
-UID:7baa5d53-15e4-4966-8569-d47ca7b5c24a@7baa.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Housing Starts refer to the number of new residential construction projects that have begun during any particular month. Estimates of housing starts include units in structures being totally rebuilt on an existing foundation.
-DURATION:PT30M
-DTSTART:20250917T123000Z
-SUMMARY:🇺🇸 Housing Starts
-UID:34fb6a8f-58a9-405c-8867-9661b9cf3b2a@34fb.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Personal consumption expenditures (PCE) is the primary measure of consumer spending on goods and services in the U.S. economy. 1 It accounts for about two-thirds of domestic final spending\, and thus it is the primary engine that drives future economic growth. PCE shows how much of the income earned by households is being spent on current consumption as opposed to how much is being saved for future consumption. PCE also provides a comprehensive measure of types of goods and services that are purchased by households. Thus\, for example\, it shows the portion of spending that is accounted for by discretionary items\, such as motor vehicles\, or the adjustments that consumers make to changes in prices\, such as a sharp run-up in gasoline prices.
-DURATION:PT30M
-DTSTART:20250926T123000Z
-SUMMARY:🇺🇸 Personal Spending MoM
-UID:6b332dd5-924d-40b2-8384-1a23d8edafa1@6b33.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:In the United States\, Existing Home Sales occur when the mortgages are closed. Mortgage closing usually takes place 30-60 days after the sales contract is closed. It includes single-family homes\, condos and co-ops.
-DURATION:PT30M
-DTSTART:20250923T140000Z
-SUMMARY:🇺🇸 Existing Home Sales
-UID:0d7cf5bd-c97c-4bde-8785-64a5a9b4ca28@0d7c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:In the United States\, the authority to set interest rates is divided between the Board of Governors of the Federal Reserve (Board) and the Federal Open Market Committee (FOMC). The Board decides on changes in discount rates after recommendations submitted by one or more of the regional Federal Reserve Banks. The FOMC decides on open market operations\, including the desired levels of central bank money or the desired federal funds market rate.
 DURATION:PT30M
 DTSTART:20250917T183000Z
 SUMMARY:🇺🇸 Fed Press Conference
-UID:1d78a9fa-9a4d-4985-bb25-2058cbe5d94f@1d78.org
+UID:e6ca9bdf-8641-40ca-b7e9-95f954c5079c@e6ca.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:On the expenditure side\, personal consumption expenditures accounts for 68 percent of total GDP out of which purchases of goods constitute 23 percent and services 45 percent. Private investment accounts for 16 percent of GDP and government consumption and investment for 18 percent. As the value of goods exported (13.5 percent) is lower than the value of goods imported (16.5 percent)\, net exports subtracts 3 percent from the total GDP value.
-DURATION:PT30M
-DTSTART:20250925T123000Z
-SUMMARY:🇺🇸 GDP Growth Rate QoQ Final
-UID:439aa47d-0a34-4b78-a733-11d0d12fd6a1@439a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:In the United States\, the core inflation rate tracks changes in prices that consumers pay for a basket of goods which excludes volatile food and fuel costs.
-DURATION:PT30M
-DTSTART:20250911T123000Z
-SUMMARY:🇺🇸 Core Inflation Rate YoY
-UID:b47a8be8-c1c8-4f42-8f33-4261e4508a5e@b47a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Nonfarm payrolls is an employment report released monthly\, usually on the first Friday of every month\, and heavily affects the US dollar\, the bond market and the stock market. Current Employment Statistics (CES) program from the U.S. Department of Labor Bureau of Labor Statistics\, surveys about 141\,000 businesses and government agencies\, representing approximately 486\,000 individual work sites\, in order to provide detailed industry data on employment\, hours\, and earnings of workers on nonfarm payrolls.
-DURATION:PT30M
-DTSTART:20250905T123000Z
-SUMMARY:🇺🇸 Non Farm Payrolls
-UID:c3f5f2d6-255e-47cb-9aea-b70d52cb7c5d@c3f5.org
-END:VEVENT
-BEGIN:VEVENT
-DURATION:PT30M
-DTSTART:20250926T123000Z
-SUMMARY:🇺🇸 Core PCE Price Index MoM
-UID:760ac43a-81f4-47c4-8bd7-6fa7b3b5747e@760a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:In the United States\, the unemployment rate measures the number of people actively looking for a job as a percentage of the labour force.
 DURATION:PT30M
 DTSTART:20251003T123000Z
 SUMMARY:🇺🇸 Unemployment Rate
-UID:8f671db9-cfc2-4cdd-902e-1cc523058f41@8f67.org
+UID:1af0db71-041e-41a8-aa36-c2328657469d@1af0.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Personal Income refers to the income that persons receive in return for their provision of labor\, land\, and capital used in current production\, plus current transfer receipts less contributions for government social insurance.
+DURATION:PT30M
+DTSTART:20250917T123000Z
+SUMMARY:🇺🇸 Housing Starts
+UID:259c14be-e660-4bf4-81d4-0b7593dd547e@259c.org
+END:VEVENT
+BEGIN:VEVENT
+DURATION:PT30M
+DTSTART:20250923T140000Z
+SUMMARY:🇺🇸 Existing Home Sales
+UID:eda9696b-1eef-48ca-ac6a-5dfc55b8d5de@eda9.org
+END:VEVENT
+BEGIN:VEVENT
 DURATION:PT30M
 DTSTART:20250926T123000Z
 SUMMARY:🇺🇸 Personal Income MoM
-UID:c9f3a3ff-e371-4875-ba30-e434aa8c3b7b@c9f3.org
+UID:890372da-24f9-4f1c-aba5-f78cae423e68@8903.org
+END:VEVENT
+BEGIN:VEVENT
+DURATION:PT30M
+DTSTART:20250911T123000Z
+SUMMARY:🇺🇸 Inflation Rate MoM
+UID:8a0c5e69-cae6-4f8d-a0df-5a3d309b616c@8a0c.org
+END:VEVENT
+BEGIN:VEVENT
+DURATION:PT30M
+DTSTART:20250916T123000Z
+SUMMARY:🇺🇸 Retail Sales MoM
+UID:637ffb20-cbb5-4828-89bb-5382393e9ac1@637f.org
+END:VEVENT
+BEGIN:VEVENT
+DURATION:PT30M
+DTSTART:20250912T140000Z
+SUMMARY:🇺🇸 Michigan Consumer Sentiment Prel
+UID:90bee444-82c0-434b-98e6-640a93335719@90be.org
 END:VEVENT
 BEGIN:VEVENT
 DURATION:PT30M
 DTSTART:20250911T123000Z
 SUMMARY:🇺🇸 Core Inflation Rate MoM
-UID:aa5bb60a-3769-4380-af84-56c30e86d004@aa5b.org
+UID:88d2353b-421c-4877-ae12-b4ab0d41be63@88d2.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:The Non-Manufacturing ISM Report On Business® is based on data compiled from purchasing and supply executives nationwide. Survey responses reflect the change\, if any\, in the current month compared to the previous month. For each of the indicators measured (Business Activity\, New Orders\, Backlog of Orders\, New Export Orders\, Inventory Change\, Inventory Sentiment\, Imports\, Prices\, Employment and Supplier Deliveries) this report shows the percentage reporting each response\, and the diffusion index. An index reading above 50 percent indicates that the non-manufacturing economy in that index is generally expanding\; below 50 percent indicates that it is generally declining. Orders to the service producers make up about 90 percent of the US economy.
-DURATION:PT30M
-DTSTART:20251003T140000Z
-SUMMARY:🇺🇸 ISM Services PMI
-UID:652eb092-73cc-4935-8706-3ac6ea1dc97d@652e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:The Manufacturing ISM Report On Business is based on data compiled from purchasing and supply executives nationwide. Survey responses reflect the change\, if any\, in the current month compared to the previous month. For each of the indicators measured (New Orders\, Backlog of Orders\, New Export Orders\, Imports\, Production\, Supplier Deliveries\, Inventories\, Customers' Inventories\, Employment and Prices)\, the report shows the percentage reporting each response\, the net difference between the number of responses in the positive economic direction and the negative economic direction\, and the diffusion index. A PMI reading above 50 percent indicates that the manufacturing economy is generally expanding\; below 50 percent indicates that it is generally declining.
-DURATION:PT30M
-DTSTART:20251001T140000Z
-SUMMARY:🇺🇸 ISM Manufacturing PMI
-UID:1b06ce0a-6afe-4df1-ad92-87b00454741f@1b06.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:In the United States\, the authority to set interest rates is divided between the Board of Governors of the Federal Reserve (Board) and the Federal Open Market Committee (FOMC). The Board decides on changes in discount rates after recommendations submitted by one or more of the regional Federal Reserve Banks. The FOMC decides on open market operations\, including the desired levels of central bank money or the desired federal funds market rate.
 DURATION:PT30M
 DTSTART:20250917T180000Z
-SUMMARY:🇺🇸 FOMC Economic Projections
-UID:339aae70-ad56-4e5f-8010-c25da98bba87@339a.org
+SUMMARY:🇺🇸 Fed Interest Rate Decision
+UID:ea8dbc98-8b98-45ca-be34-d5f6e5c3214c@ea8d.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:In the United States\, the unemployment rate measures the number of people actively looking for a job as a percentage of the labour force.
-DURATION:PT30M
-DTSTART:20250905T123000Z
-SUMMARY:🇺🇸 Unemployment Rate
-UID:9f024917-a115-496f-886d-d19e4e54d6eb@9f02.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Nonfarm payrolls is an employment report released monthly\, usually on the first Friday of every month\, and heavily affects the US dollar\, the bond market and the stock market. Current Employment Statistics (CES) program from the U.S. Department of Labor Bureau of Labor Statistics\, surveys about 141\,000 businesses and government agencies\, representing approximately 486\,000 individual work sites\, in order to provide detailed industry data on employment\, hours\, and earnings of workers on nonfarm payrolls.
-DURATION:PT30M
-DTSTART:20251003T123000Z
-SUMMARY:🇺🇸 Non Farm Payrolls
-UID:aea7ba8a-b7d1-418c-9381-a04d359dadbd@aea7.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:The Index of Consumer Expectations focuses on three areas: how consumers view prospects for their own financial situation\, how they view prospects for the general economy over the near term\, and their view of prospects for the economy over the long term. Each monthly survey contains approximately 50 core questions\, each of which tracks a different aspect of consumer attitudes and expectations. The samples for the Surveys of Consumers are statistically designed to be representative of all American households\, excluding those in Alaska and Hawaii. Each month\, a minimum of 500 interviews are conducted by telephone.
-DURATION:PT30M
-DTSTART:20250912T140000Z
-SUMMARY:🇺🇸 Michigan Consumer Sentiment Prel
-UID:033e84a0-b202-4a78-be63-a91d8c2d4396@033e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:In the United States\, job openings refer to all positions that are open (not filled) on the last business day of the month. Job openings are part of the Job Openings and Labor Turnover Survey (JOLTS). The survey collects data from around 16400 nonfarm establishments including retailers and manufacturers\, as well as federal\, state\, and local government entities in the 50 states and the District of Columbia. The JOLTS assesses the unmet demand for labor in the U.S. labor market and gained attention in 2014 as favorite labor market indicator of Federal Reserve Chair Janet Yellen.
-DURATION:PT30M
-DTSTART:20250930T140000Z
-SUMMARY:🇺🇸 JOLTs Job Openings
-UID:699782f0-1d5e-4fd6-a9af-9796c289a07c@6997.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Inflation Rate MoM measures month over month change in the price of goods and services.
 DURATION:PT30M
 DTSTART:20250911T123000Z
-SUMMARY:🇺🇸 Inflation Rate MoM
-UID:e8d36291-2fcb-4f92-8e80-cab8c6a73bd1@e8d3.org
+SUMMARY:🇺🇸 Inflation Rate YoY
+UID:10521fde-8474-4429-987c-a6dac58fab91@1052.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Building Permits refer to the approvals given by a local jurisdictions before the construction of a new or existing building can legally occur. Not all areas of the United States require a permit for construction.
 DURATION:PT30M
 DTSTART:20250917T123000Z
 SUMMARY:🇺🇸 Building Permits Prel
-UID:922bdacc-2cb8-4f94-8632-195028ffe5e1@922b.org
+UID:e7aaf227-e056-49a8-897d-1193c1763d8e@e7aa.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:In the United States\, the Producer Price Inflation MoM for final demand measures month-over-month changes in the price for commodities sold for personal consumption\, capital investment\, government\, and export. It is composed of six main price indexes: final demand goods (33 percent of the total weight)\, which includes food and energy\; final demand trade services (20 percent)\; final demand transportation and warehousing services (4 percent)\; final demand services less trade\, transportation\, and warehousing (41 percent)\; final demand construction (2 percent)\; and overall final demand.
+DURATION:PT30M
+DTSTART:20250905T123000Z
+SUMMARY:🇺🇸 Unemployment Rate
+UID:23016001-885d-4491-a04b-77821285236f@2301.org
+END:VEVENT
+BEGIN:VEVENT
+DURATION:PT30M
+DTSTART:20251003T140000Z
+SUMMARY:🇺🇸 ISM Services PMI
+UID:971f43ac-74c6-4d53-bfa7-3a3b6db51c49@971f.org
+END:VEVENT
+BEGIN:VEVENT
+DURATION:PT30M
+DTSTART:20251003T123000Z
+SUMMARY:🇺🇸 Non Farm Payrolls
+UID:38538322-5ab3-46f0-8941-18bb32d2a1fb@3853.org
+END:VEVENT
+BEGIN:VEVENT
+DURATION:PT30M
+DTSTART:20250925T123000Z
+SUMMARY:🇺🇸 GDP Growth Rate QoQ Final
+UID:186238e7-1699-45ea-bc57-0d6b19f76a5a@1862.org
+END:VEVENT
+BEGIN:VEVENT
+DURATION:PT30M
+DTSTART:20251001T140000Z
+SUMMARY:🇺🇸 ISM Manufacturing PMI
+UID:186704cf-19f7-4b3c-b4d0-305e0b67b39e@1867.org
+END:VEVENT
+BEGIN:VEVENT
+DURATION:PT30M
+DTSTART:20250905T123000Z
+SUMMARY:🇺🇸 Non Farm Payrolls
+UID:506a9764-1b78-4b26-982e-2058c5bb5c56@506a.org
+END:VEVENT
+BEGIN:VEVENT
+DURATION:PT30M
+DTSTART:20250911T123000Z
+SUMMARY:🇺🇸 Core Inflation Rate YoY
+UID:ce17d7e9-147e-4507-bd43-f5a6e0bd91b1@ce17.org
+END:VEVENT
+BEGIN:VEVENT
+DURATION:PT30M
+DTSTART:20250917T180000Z
+SUMMARY:🇺🇸 FOMC Economic Projections
+UID:1ee4eb0c-1259-4079-84c3-45ffbdc26375@1ee4.org
+END:VEVENT
+BEGIN:VEVENT
+DURATION:PT30M
+DTSTART:20250930T140000Z
+SUMMARY:🇺🇸 JOLTs Job Openings
+UID:d85268aa-f4fa-401e-914c-001baebb9684@d852.org
+END:VEVENT
+BEGIN:VEVENT
+DURATION:PT30M
+DTSTART:20250926T123000Z
+SUMMARY:🇺🇸 Core PCE Price Index MoM
+UID:7f8f1c39-b93b-41a0-9415-032dd4591114@7f8f.org
+END:VEVENT
+BEGIN:VEVENT
+DURATION:PT30M
+DTSTART:20250926T123000Z
+SUMMARY:🇺🇸 Personal Spending MoM
+UID:00bd9377-99a7-46ab-99d7-424c7e305040@00bd.org
+END:VEVENT
+BEGIN:VEVENT
+DURATION:PT30M
+DTSTART:20250925T123000Z
+SUMMARY:🇺🇸 Durable Goods Orders MoM
+UID:a11402c9-7358-45c1-9ce1-1809c90b03ef@a114.org
+END:VEVENT
+BEGIN:VEVENT
 DURATION:PT30M
 DTSTART:20250910T123000Z
 SUMMARY:🇺🇸 PPI MoM
-UID:59ac6083-a7cd-42b0-8951-0904ec47d6fc@59ac.org
+UID:491419b1-2f46-485b-9b9d-47c57065f959@4914.org
 END:VEVENT
 END:VCALENDAR
