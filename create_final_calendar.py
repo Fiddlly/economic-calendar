@@ -109,7 +109,7 @@ def create_calendar_from_df(df):
     print(f"-> Starting calendar creation with {len(df)} events passed to function.")
     
     c = Calendar()
-    c.prodid = "Economic Events Calendar"
+    c.extra.append(('PRODID', '-//Economic Events Calendar//EN'))
 
     if df.empty:
         print("-> Dataframe is empty, returning an empty calendar.")
