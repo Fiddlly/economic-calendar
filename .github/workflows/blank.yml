@@ -11,6 +11,8 @@ on:
 jobs:
   build-and-commit:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     # 1. Checks-out your repository so the job can access your script
     - name: Checkout Repository
