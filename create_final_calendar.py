@@ -64,45 +64,74 @@ def fetch_and_filter_events():
         return pd.DataFrame()
 
 
-def create_calendar_from_df(df):
-    """Creates an iCalendar object from a DataFrame."""
-#    c = Calendar(creator="Economic Events Calendar")
-    c = Calendar() # Create the calendar as usual
+# def create_calendar_from_df(df):
+#     """Creates an iCalendar object from a DataFrame."""
+# #    c = Calendar(creator="Economic Events Calendar")
+#     c = Calendar() # Create the calendar as usual
 
+#     c.prodid = "Economic Events Calendar"
+
+    
+#     # --- CHANGE 2: Dictionary to map country codes to flags ---
+#     country_flags = {
+#         'US': '🇺🇸',
+#         'IN': '🇮🇳'
+#     }
+    
+#     if df.empty:
+#         return c
+
+#     for index, row in df.iterrows():
+#         e = Event()
+        
+#         # Get the correct flag, with a default globe icon if not found
+#         # flag = country_flags.get(row['country'], '🌐')
+#         # e.name = f"{flag} {row['title']}"
+
+#         e.name = row['title']
+
+        
+#         e.begin = row['date']
+#         e.duration = pd.Timedelta(minutes=30)
+        
+#         # description = []
+#         # if pd.notna(row.get('comment')):
+#         #     description.append(row['comment'])
+        
+#         # e.description = "\n".join(description)
+#         c.events.add(e)
+        
+#     return c
+
+def create_calendar_from_df(df):
+    """Creates an iCalendar object from a DataFrame with debugging prints."""
+    # --- DEBUG PRINT 1 ---
+    print(f"-> Starting calendar creation with {len(df)} events passed to function.")
+    
+    c = Calendar()
     c.prodid = "Economic Events Calendar"
 
-    
-    # --- CHANGE 2: Dictionary to map country codes to flags ---
-    country_flags = {
-        'US': '🇺🇸',
-        'IN': '🇮🇳'
-    }
-    
     if df.empty:
+        print("-> Dataframe is empty, returning an empty calendar.")
         return c
 
+    print("-> Looping through events...")
     for index, row in df.iterrows():
         e = Event()
-        
-        # Get the correct flag, with a default globe icon if not found
-        # flag = country_flags.get(row['country'], '🌐')
-        # e.name = f"{flag} {row['title']}"
-
         e.name = row['title']
-
-        
         e.begin = row['date']
         e.duration = pd.Timedelta(minutes=30)
-        
-        # description = []
-        # if pd.notna(row.get('comment')):
-        #     description.append(row['comment'])
-        
-        # e.description = "\n".join(description)
         c.events.add(e)
         
+        # --- DEBUG PRINT 2 ---
+        print(f"  - Added event: {row['title']}")
+        
+    # --- DEBUG PRINT 3 ---
+    print(f"-> Finished loop. Calendar now has {len(c.events)} events.")
+    
+    # CORRECT: The 'return' statement is now outside the for loop.
     return c
-
+    
 def main():
     """Main function to run the script."""
     filtered_events_df = fetch_and_filter_events()
